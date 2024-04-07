@@ -1,0 +1,121 @@
+p {
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.692); /* Fondo semi-transparente blanco */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.final {
+    text-align: center;
+}
+
+body {
+    font-family: cursive; 
+    margin: 0;
+    padding: 0;
+    background-color: #111; /* Color de fondo oscuro */
+    color: #f8f8f8; /* Color del texto principal */
+    line-height: 1.6;
+    min-height: 100vh; /* Asegura que el cuerpo tenga al menos el tamaño de la ventana */
+    position: relative; /* Establece el cuerpo como un contenedor de posición relativa para el footer */
+    
+}
+body, header, footer {
+    background-image: url(0.jpg); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Cubrir toda la página */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-attachment: fixed; /* Fijar la imagen al fondo */
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+
+header {
+    background-color: #111; /* Color de fondo del encabezado */
+    color: #f8f8f8; /* Color del texto del encabezado */
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 47px; /* Aumento de tamaño del logotipo */
+    font-weight: bold;
+    text-decoration:wavy;
+    color: #f8f8f8; /* Color del texto del logotipo */
+    font-family: "Licorice", cursive;
+    background-color: #f8f8f8; /* Color de fondo */
+    color: #111; /* Color del texto */
+    padding: 5px 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 65px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f8f8f8; /* Color del texto del enlace del menú */
+    padding: 10px 20px; /* Espaciado interno */
+    border: 2px solid transparent; /* Borde transparente inicial */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.1); /* Color de fondo con transparencia al pasar el mouse */
+    border-color: #f8f8f8; /* Color del borde al pasar el mouse */
+}
+
+footer {
+    background-color: black /* Fondo semi-transparente negro */
+    
+}
+
+/* Estilos para la galería de imágenes */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan si no caben en una sola fila */
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.image-gallery img {
+    max-width: calc(33.33% - 10px); /* Distribuye las imágenes en tres columnas con un pequeño espacio entre ellas */
+    max-height: 500px; /* Altura máxima para evitar que las imágenes sean demasiado altas */
+    width: auto; /* Permitir que la anchura se ajuste automáticamente */
+    height: auto; /* Permitir que la altura se ajuste automáticamente */
+    border: 2px solid white; /* Borde blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    margin-bottom: 10px;
+}
+
+.image-gallery img:last-child {
+    margin-right: 0; /* Elimina el margen derecho de la última imagen */
+    
+}
+
+
+
